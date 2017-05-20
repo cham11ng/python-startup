@@ -1,2 +1,3 @@
 .idea/
 exampleFile.txt
+__pycache__/
