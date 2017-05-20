@@ -7,10 +7,12 @@ length = int(input('Prime Number Limit: '))
 for i in range(2, length):
     for j in range(2, i):
         if i % j == 0:
-            print(i, " equals ", j, 'x', i//j)
+            print(i, " equals ", j, 'x', i // j)
             break
-    else:   # it is executed when the loop terminates through exhaustion of the list (with for) or
-            # when the condition becomes false (with while)
+    # it is executed when the loop terminates through exhaustion of the list
+    # (with for) or
+    else:
+        # when the condition becomes false (with while)
         print(i, " is a prime number")
         prime_number_list.append(i)
 

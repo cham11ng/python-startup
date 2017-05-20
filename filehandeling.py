@@ -16,4 +16,3 @@ readExampleFile = open('exampleFile.txt', 'r')
 print(readExampleFile.read())
 # print(readExampleFile.readline())
 # print(readExampleFile.readlines())
-

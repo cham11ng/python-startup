@@ -11,7 +11,7 @@ total = 5
 pattern = 1
 
 for i in range(total):
-    for j in range(i+1):
+    for j in range(i + 1):
         print(1, end='')
 
     print()
